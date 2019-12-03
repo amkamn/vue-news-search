@@ -1,4 +1,4 @@
-# News Search with PAPER CSS 
+# News Search with Paper Css
 
 
 ## Project setup
