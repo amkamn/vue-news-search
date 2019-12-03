@@ -31,17 +31,19 @@ html,body{
 }
 .content{
     .list-Item{
-        width:100%;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        .card--outer{
-            padding:10px;
-            width:25%;
-            .card {
-                a {
-                    color:inherit;
-                    text-decoration: none;
+        span{
+            width:100%;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            .card--outer{
+                padding:10px;
+                width:25%;
+                .card {
+                    a {
+                        color:inherit;
+                        text-decoration: none;
+                    }
                 }
             }
         }

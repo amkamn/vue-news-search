@@ -4,7 +4,9 @@
         <div class="loader" v-if="loading"></div>
         <div v-if="loading == false" class=list-Item>
             <div class="w100"><h4>List</h4></div>
+            <sequential-entrance>
             <List :list="item" v-for="(item,index) in list"  :key="index"/>
+            </sequential-entrance>
         </div>
         <ErrorMessage :errorMessage="errorMessage" v-if="list.length == 0 || list.length == null"/>
     </div>
